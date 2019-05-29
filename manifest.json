@@ -1,0 +1,15 @@
+{
+ "manifest_version": 2,
+ "name": "Add Blocker",
+ "description": "Block all doubleclick.net adds with this extension",
+ "version": "1",
+ "author": "Anshaj Upadhyay",
+"browser_action": {
+   "default_icon": "1234.jpg",
+   "default_title": "Add Blocker"
+ },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"]
+}
